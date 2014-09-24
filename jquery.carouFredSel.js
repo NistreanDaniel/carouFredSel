@@ -2661,6 +2661,7 @@
 				if (s === true)
 				{
 					s = window.location.hash;
+					s = parseInt(s.slice(1));
 					if (s.length < 1)
 					{
 						continue;
